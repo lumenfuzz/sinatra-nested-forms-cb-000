@@ -9,9 +9,9 @@ class Pirate
     @weight = weight
     PIRATES << self
   end
-  
+
   def self.all
     PIRATES
   end
-  
+
 end
