@@ -17,7 +17,7 @@ module FormsLab
         Ship.new(params[:ship_name_1],params[:ship_type_1],params[:ship_booty_1]),
         Ship.new(params[:ship_name_2],params[:ship_type_2],params[:ship_booty_2])
       ]
-      erb :test
+      erb :show
     end
 
   end
