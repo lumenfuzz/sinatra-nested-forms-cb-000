@@ -13,7 +13,7 @@ module FormsLab
 
     post '/pirates' do
       @pirate = {
-        name: params["pirate[name]"]
+        name: params["pirate"["name"]]
       }
       erb :show
     end
