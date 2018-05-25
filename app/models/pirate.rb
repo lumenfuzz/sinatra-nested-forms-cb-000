@@ -6,4 +6,5 @@ class Pirate
     @height = height
     @weight = weight
   end
+
 end
